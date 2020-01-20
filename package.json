@@ -19,5 +19,6 @@
   "bugs": {
     "url": "https://github.com/DarkSmile92/mecardgenerator/issues"
   },
-  "homepage": "https://github.com/DarkSmile92/mecardgenerator#readme"
+  "homepage": "https://github.com/DarkSmile92/mecardgenerator#readme",
+  "dependencies": {}
 }
