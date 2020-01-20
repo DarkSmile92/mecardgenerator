@@ -2,6 +2,10 @@
 
 This package provides a helper to generate [MeCards](<https://en.wikipedia.org/wiki/MeCard_(QR_code)>) to use it with a QR code for phones.
 
+#### Install
+
+`npm i --save mecardgenerator`
+
 #### Usage
 
 ###### MeCard only

@@ -1,4 +1,4 @@
-const MeCardGen = (
+export const MeCardGen = (
 	fName,
 	lName,
 	email,
@@ -11,5 +11,3 @@ const MeCardGen = (
 	country
 ) =>
 	`MECARD:N:${fName},${lName};EMAIL:${email};TEL:${mobile};URL:${url};ADR:,,${street},${zip} ${city},${state},${country};;`;
-
-export default MeCardGen;
