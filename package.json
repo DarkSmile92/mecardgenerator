@@ -4,7 +4,8 @@
   "description": "Generates a MeCard record which can be turned into a QR Code or just embedded as file.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx babel index-module.js -o index.js --presets=@babel/preset-env"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,10 @@
     "url": "https://github.com/DarkSmile92/mecardgenerator/issues"
   },
   "homepage": "https://github.com/DarkSmile92/mecardgenerator#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/preset-env": "^7.8.3"
+  }
 }
