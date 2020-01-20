@@ -1,11 +1,12 @@
 {
   "name": "mecardgenerator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generates a MeCard record which can be turned into a QR Code or just embedded as file.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx babel index-module.js -o index.js --presets=@babel/preset-env"
+    "build": "npx babel index-module.js -o index.js --presets=@babel/preset-env",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",
