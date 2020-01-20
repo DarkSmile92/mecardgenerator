@@ -1,4 +1,9 @@
-const MeCardGen = (
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+var MeCardGen = function MeCardGen(
 	fName,
 	lName,
 	email,
@@ -9,7 +14,30 @@ const MeCardGen = (
 	state,
 	zip,
 	country
-) =>
-	`MECARD:N:${fName},${lName};EMAIL:${email};TEL:${mobile};URL:${url};ADR:,,${street},${zip} ${city},${state},${country};;`;
+) {
+	return (
+		"MECARD:N:" +
+		fName +
+		"," +
+		lName +
+		";EMAIL:" +
+		email +
+		";TEL:" +
+		mobile +
+		";URL:" +
+		url +
+		";ADR:,," +
+		street +
+		"," +
+		zip +
+		" " +
+		city +
+		"," +
+		state +
+		"," +
+		country +
+		";;"
+	);
+};
 
-export default MeCardGen;
+exports.default = MeCardGen;
