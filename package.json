@@ -1,6 +1,6 @@
 {
   "name": "mecardgenerator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generates a MeCard record which can be turned into a QR Code or just embedded as file.",
   "main": "index.js",
   "scripts": {
