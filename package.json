@@ -1,0 +1,23 @@
+{
+  "name": "mecardgenerator",
+  "version": "1.0.0",
+  "description": "Generates a MeCard record which can be turned into a QR Code or just embedded as file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarkSmile92/mecardgenerator.git"
+  },
+  "keywords": [
+    "mecard",
+    "generator"
+  ],
+  "author": "Robin Kretzschmar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DarkSmile92/mecardgenerator/issues"
+  },
+  "homepage": "https://github.com/DarkSmile92/mecardgenerator#readme"
+}
